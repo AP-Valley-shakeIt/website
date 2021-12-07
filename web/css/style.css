@@ -890,3 +890,34 @@ ul.link_menu li a:hover {
 .margin_0 {
      margin: 0 !important;
 }
+
+
+
+/* blog start*/
+
+.post{
+     display: flex;
+     box-shadow: 0 0 20px 6px #00000017;
+}
+.postimg {
+     max-width: 400px;
+}
+.posttext {
+     padding: 30px;
+     
+}
+.posttitle{
+     font-size:2em;
+     font-weight: 700;
+}
+.postdate {
+     color: rgba(0, 0, 0, 0.178) ;
+     font-weight: 500;
+}
+.postbody{
+     padding-top: 10px;
+}
+.posttitlepink{
+     color: #ff3556;
+}
+/* blog end*/
