@@ -894,12 +894,15 @@ ul.link_menu li a:hover {
 
 
 /* blog start*/
-
+.blog{
+     padding-top: 50px;
+}
 .post{
      display: flex;
+     margin-bottom: 20px;
      box-shadow: 0 0 20px 6px #00000017;
 }
-.postimg {
+.postimg img {
      max-width: 400px;
 }
 .posttext {
@@ -920,4 +923,14 @@ ul.link_menu li a:hover {
 .posttitlepink{
      color: #ff3556;
 }
+
+@media only screen and (max-width: 600px) {
+     .post{
+          flex-direction: column;
+     }
+     .postimg {
+          width: 100%;
+     }
+   }
+
 /* blog end*/
